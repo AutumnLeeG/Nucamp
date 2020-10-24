@@ -1,54 +1,53 @@
 body {
-    font-weight: "Open sans", sans-serif;
-     background-color: palegreen;
-     color: peru;
-}
+  font-weight: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: purple;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-    color: #f5df1ffa;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #b81c1c;
-}
+  color: #CEC8FF; }
 
 .site-footer {
-    background-image: linear-gradient(#f56e14d7, rgb(102, 51, 4));
-    padding: 20px 0;
-    color: royalblue;
-}
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30xp;
-    background-image: linear-gradient(to right, #343434, #e67d06dc, black);
-    color: orange;
-}
+  margin: 0;
+  padding: 30xp;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
-.navbar-dark {
-    background-color: #e9112e;
-}
+.navbar {
+  background-color: #901CAD; }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid #5637DD;
-}
+  border: solid #5637dd; }
 
 .tab-content {
-    border: 3px soild #DDD;
-    border-top: none;
-}
+  border: 1px soild #DDD;
+  border-top: none; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
